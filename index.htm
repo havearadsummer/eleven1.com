@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Eleven1 - Design &amp; Art Direction</title>
+<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="robots" content="all" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<style>
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #0f0a1f;
+}
+@font-face {
+	font-family: 'NeuzeitGro-Bol';
+	src: url('webfonts/1DB12E_0_0.eot');
+	src: url('webfonts/1DB12E_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/1DB12E_0_0.woff') format('woff'), url('webfonts/1DB12E_0_0.ttf') format('truetype');
+	font-weight: normal;
+}
+@font-face {
+	font-family: DINWeb-Light;
+	src: url("webfonts/DINWeb-Light.eot");
+}
+@font-face {
+	font-family: DINWeb-Light;
+	src: url("webfonts/DINWeb-Light.woff") format("woff");
+}
+p {
+	color: #fff;
+	font-family: DINWeb-Light, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 22px;
+	-webkit-font-smoothing: antialiased;
+}
+p span {
+	color: #e1e000;
+}
+a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+a:hover {
+	color: #990000;
+	border-bottom: 1px solid rgba(255,255,255,1);
+}
+#monogram {
+	width: 50px;
+	padding: 50px 0 0 0;
+	margin: 0 auto 0 50px;
+}
+#about {
+	width: 560px;
+	padding: 0 0 0 150px;
+	margin: -35px 50px 0 auto !important;
+}
+ @media (max-width: 767px) {
+#monogram {
+	position: relative;
+	width: auto;
+	padding: 20px;
+	margin: 0;
+}
+#about {
+	position: relative;
+	width: auto;
+	padding: 20px;
+	margin: 0 !important;
+}
+background-image {
+	opacity: 0.2;
+}
+}
+</style>
+</head>
+
+<body>
+
+<!-- swap out for a logo -->
+<div id="monogram"> <img src="monogram.png" /> </div>
+
+<!-- swap out for information about yourself -->
+<div id="about">
+  <p>Eleven1 is a design studio. We simplify to clarify. Together with our clients, we move brands and make them innovative, sustainable and continuously profitable.</p>
+  <p><span>We have exciting news in the works.  Please visit us again soon for all of the fine details.</span></p>
+</div>
+
+<!--include jquery & backstretch--> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<script type="text/javascript" src="jquery.backstretch.min.js"></script> 
+<script type="text/javascript">
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("background.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-137336-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
